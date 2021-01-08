@@ -1,4 +1,4 @@
-input_file = open("C:\\Julia workspace\\advent3\\input.txt")
+input_file = open("input.txt")
 lines = readlines(input_file)
 
 function countTrees(down, right, lines)::Int64
