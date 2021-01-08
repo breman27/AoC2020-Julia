@@ -1,5 +1,3 @@
-using DelimitedFiles
-
 function readFile()
     input_file = open("input.txt")
     lines =
