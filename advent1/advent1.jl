@@ -1,4 +1,4 @@
-input_file = open("C:\\Julia workspace\\input.txt")
+input_file = open("input.txt")
 lines = readlines(input_file)
 
 for i = lines, j = lines
