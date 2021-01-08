@@ -1,6 +1,6 @@
 using DelimitedFiles
 
-input_file = open("C:\\Julia workspace\\advent4\\input.txt")
+input_file = open("input.txt")
 lines = read(input_file, String) |>
     x -> split(x, "\n\n")
 numValid = 0
